@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b3ae4b946449b4fb3239478f85e9ab, type: 3}
+  m_Name: DebugSettings
+  m_EditorClassIdentifier: Assembly-CSharp::GameSettings
+  gameDuration: 90
+  strainDuration: 1
+  goldenStrainAmount: 6
+  falseStrainAmount: 3
+  strainInterval: 10
+  goldenStrainReward: 20
+  falseStrainPenalty: 20
+  strainRandom: 4
+  strainSpawnRadius: 250
+  goldenstrainsSpawned: 0
+  falseStrainsSpawned: 0

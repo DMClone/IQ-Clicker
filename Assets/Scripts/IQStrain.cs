@@ -1,8 +1,16 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class IQStrain : MonoBehaviour
 {
+    Image image;
+
+    void Awake()
+    {
+        image = GetComponent<Image>();
+    }
+
     [System.Serializable]
     public struct StrainSettings
     {
@@ -33,17 +41,19 @@ public class IQStrain : MonoBehaviour
 
     void TurnGolden()
     {
+        image.sprite = strainSettings.sprites[0];
         // Change appearance to golden
     }
 
     void TurnFalse()
     {
+        image.sprite = strainSettings.sprites[1];
         // Change appearance to false
     }
 
     private IEnumerator DisableAfterTime()
     {
-        yield return new WaitForSeconds(GameManager.Instance.gameSettings.goldenStrainDuration);
+        yield return new WaitForSeconds(GameManager.Instance.gameSettings.strainDuration);
         gameObject.SetActive(false);
     }
 }
