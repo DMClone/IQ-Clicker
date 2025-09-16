@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public GameObject[] strains;
     public TMPro.TextMeshProUGUI iqText;
     public Timer timer;
+    public Scientist scientist;
 
     public GameSettings gameSettings;
     public GameData gameData;
@@ -24,6 +25,7 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         StartCoroutine(SpawnStrainInterval());
+        StartCoroutine(ScientistInterval());
         timer.BeginTimer();
     }
 
@@ -130,6 +132,16 @@ public class GameManager : MonoBehaviour
         gameData.iq += 1;
         gameData.brainClicks++;
         UpdateUI();
+    }
+
+    private IEnumerator ScientistInterval()
+    {
+        yield return new WaitForSeconds(gameSettings.scientistInterval);
+        scientist.transform.parent.gameObject.SetActive(true);
+
+
+        StartCoroutine(ScientistInterval());
+        // To be implemented
     }
 
     public void UpdateUI()

@@ -12,6 +12,8 @@ public class GameSettings : ScriptableObject
     [Range(10, 100)] public int falseStrainPenalty = 20;
     [Range(0, 5)][Tooltip("Amount of seconds randomly added for a strain appearance")] public int strainRandom = 4;
     [Range(0, 300)][Tooltip("Distance from brain (Always on the edge)")] public int strainSpawnRadius = 250;
+    [Range(1, 10)] public int scientistDuration = 5;
+    [Range(5, 60)] public int scientistInterval = 30;
     [ReadOnly] public int goldenstrainsSpawned;
     [ReadOnly] public int falseStrainsSpawned;
 }

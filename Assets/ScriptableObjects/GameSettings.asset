@@ -16,10 +16,12 @@ MonoBehaviour:
   strainDuration: 1
   goldenStrainAmount: 6
   falseStrainAmount: 3
-  strainInterval: 10
+  strainInterval: 12
   goldenStrainReward: 20
   falseStrainPenalty: 20
   strainRandom: 4
   strainSpawnRadius: 250
-  goldenstrainsSpawned: 0
-  falseStrainsSpawned: 0
+  scientistDuration: 4
+  scientistInterval: 5
+  goldenstrainsSpawned: 2
+  falseStrainsSpawned: 1
