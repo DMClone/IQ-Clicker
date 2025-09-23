@@ -1,0 +1,13 @@
+{
+    "asset": "d3f40fdccac628d47aebdce8b4060c41",
+    "fileName": "019976ad-fe2f-7616-87e8-7e7166a75b10.wav",
+    "prompt": "MrBeast intro",
+    "negativePrompt": "hype",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "f34a992449210215ad25cbe4b9c2ba27",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

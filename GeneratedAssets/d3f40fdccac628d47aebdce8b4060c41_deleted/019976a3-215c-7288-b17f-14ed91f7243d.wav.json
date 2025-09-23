@@ -1,0 +1,13 @@
+{
+    "asset": "d3f40fdccac628d47aebdce8b4060c41",
+    "fileName": "019976a3-215c-7288-b17f-14ed91f7243d.wav",
+    "prompt": "Deltarune The World Revolving Theme",
+    "negativePrompt": "music, long",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "0811bf84e0bb432ed8c44a31744a2e23",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

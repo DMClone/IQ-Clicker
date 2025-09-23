@@ -1,0 +1,13 @@
+{
+    "asset": "d3f40fdccac628d47aebdce8b4060c41",
+    "fileName": "0199769d-e6c7-7a7c-a795-37adb51f6adf.wav",
+    "prompt": "A yoddeling man in the right side of my ear and loud banging in the other",
+    "negativePrompt": "long",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "3346afe9e7005867800601d9f7a92e5c",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

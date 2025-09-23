@@ -1,0 +1,13 @@
+{
+    "asset": "d3f40fdccac628d47aebdce8b4060c41",
+    "fileName": "019976ad-5e3c-7a21-97f8-ac6868f6b75a.wav",
+    "prompt": "MLG compilation dubstep",
+    "negativePrompt": "Cool, hype",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "199ac7d2c34dec9985c38991ec9ac4d3",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

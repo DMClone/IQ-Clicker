@@ -1,0 +1,20 @@
+{
+    "asset": "675d57b721f0a84469f5aa82e111bd15",
+    "fileName": "019976bf-9548-7a24-8b42-184b4286865c.jpg",
+    "prompt": "A clown",
+    "negativePrompt": "sharp, new",
+    "model": "94c4260f-b988-40e7-b3d3-435b9f449bd0",
+    "modelName": "Flux.1 Dev",
+    "customSeed": -1,
+    "w3CTraceId": "fc583caae0995b653f39c1eae5200f14",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}

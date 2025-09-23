@@ -1,0 +1,13 @@
+{
+    "asset": "d3f40fdccac628d47aebdce8b4060c41",
+    "fileName": "019976b2-162e-7152-8ccb-cdb6aaa1929d.wav",
+    "prompt": "A wooden crate breaking",
+    "negativePrompt": "",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "9c0f8176f0c41b1e96255e39af7ef590",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

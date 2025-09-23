@@ -1,0 +1,13 @@
+{
+    "asset": "d3f40fdccac628d47aebdce8b4060c41",
+    "fileName": "019976af-8a55-76e1-8497-24dbe546e8ed.wav",
+    "prompt": "Hammer hitting a tin can",
+    "negativePrompt": "",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "d30bc2687ed1f57d74c5147beae6e8e6",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

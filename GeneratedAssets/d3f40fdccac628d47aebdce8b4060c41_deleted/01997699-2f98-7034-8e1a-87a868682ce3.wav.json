@@ -1,0 +1,13 @@
+{
+    "asset": "d3f40fdccac628d47aebdce8b4060c41",
+    "fileName": "01997699-2f98-7034-8e1a-87a868682ce3.wav",
+    "prompt": "birds chirping",
+    "negativePrompt": "",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "7b749afff8e8d7190ff495318b72967a",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

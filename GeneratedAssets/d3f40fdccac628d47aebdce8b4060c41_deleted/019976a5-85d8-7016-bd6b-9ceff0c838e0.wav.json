@@ -1,0 +1,13 @@
+{
+    "asset": "d3f40fdccac628d47aebdce8b4060c41",
+    "fileName": "019976a5-85d8-7016-bd6b-9ceff0c838e0.wav",
+    "prompt": "Who killed Captain Alex",
+    "negativePrompt": "music, long",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "e2e544ed75dce7f9348aa711cfbf54ed",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

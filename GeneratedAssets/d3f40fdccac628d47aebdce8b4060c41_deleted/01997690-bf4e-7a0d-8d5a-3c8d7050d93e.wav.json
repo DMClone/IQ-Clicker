@@ -1,0 +1,13 @@
+{
+    "asset": "d3f40fdccac628d47aebdce8b4060c41",
+    "fileName": "01997690-bf4e-7a0d-8d5a-3c8d7050d93e.wav",
+    "prompt": "robot saying \"start digging in your butt twin\"",
+    "negativePrompt": "",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "59a8366c7cfd7c3f928fdc851abce06b",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

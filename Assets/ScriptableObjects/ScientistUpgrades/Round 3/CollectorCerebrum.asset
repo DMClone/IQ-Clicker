@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d2b81cd1ebe81c4d90f614155015d8f, type: 3}
+  m_Name: CollectorCerebrum
+  m_EditorClassIdentifier: Assembly-CSharp::Perk
+  description: 'Increase IQ per click with each golden strain collected
+
+    (base
+    * (1.1 * golden strains collected))
+
+    No longer allows strains to spawn'
+  modifiers:
+  - statType: 6
+    value: 0.1
+    isMultiplier: 0
+  - statType: 4
+    value: 0
+    isMultiplier: 1
+  - statType: 5
+    value: 0
+    isMultiplier: 1

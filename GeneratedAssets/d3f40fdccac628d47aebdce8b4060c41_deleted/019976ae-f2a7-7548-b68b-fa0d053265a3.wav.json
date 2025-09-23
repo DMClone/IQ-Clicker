@@ -1,0 +1,13 @@
+{
+    "asset": "d3f40fdccac628d47aebdce8b4060c41",
+    "fileName": "019976ae-f2a7-7548-b68b-fa0d053265a3.wav",
+    "prompt": "Grenade made out of wood",
+    "negativePrompt": "hype",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "59edc8b1c21a3b95474d03d8c3372605",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

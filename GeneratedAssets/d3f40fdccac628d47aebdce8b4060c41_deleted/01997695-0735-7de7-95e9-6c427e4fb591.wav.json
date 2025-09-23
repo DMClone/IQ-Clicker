@@ -1,0 +1,13 @@
+{
+    "asset": "d3f40fdccac628d47aebdce8b4060c41",
+    "fileName": "01997695-0735-7de7-95e9-6c427e4fb591.wav",
+    "prompt": "A Chinese man screaming at the top of his lungs and breaking the sound barrier",
+    "negativePrompt": "",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "2ae239e86cf5ab8558bb7d4a9de2ce5a",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

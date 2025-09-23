@@ -1,0 +1,13 @@
+{
+    "asset": "d3f40fdccac628d47aebdce8b4060c41",
+    "fileName": "0199768e-67ff-78f1-88d1-4c7e3602059b.wav",
+    "prompt": "bullet impact on water",
+    "negativePrompt": "music",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "c06be33d7f0db34dfc86d9fd465a0357",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

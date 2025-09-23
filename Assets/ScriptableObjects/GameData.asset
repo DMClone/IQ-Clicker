@@ -16,3 +16,4 @@ MonoBehaviour:
   brainClicks: 0
   goldenStrainsCollected: 0
   falseStrainsCollected: 0
+  perks: []

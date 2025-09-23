@@ -1,0 +1,13 @@
+{
+    "asset": "d3f40fdccac628d47aebdce8b4060c41",
+    "fileName": "0199769c-74d7-7757-9b4e-e64c564c4372.wav",
+    "prompt": "A yoddeling man in the right side of my ear",
+    "negativePrompt": "",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "b1662c037c3645c06d2a94bf715faf72",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

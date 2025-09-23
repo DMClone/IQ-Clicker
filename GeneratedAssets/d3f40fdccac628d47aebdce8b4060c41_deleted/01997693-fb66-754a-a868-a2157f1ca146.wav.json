@@ -1,0 +1,13 @@
+{
+    "asset": "d3f40fdccac628d47aebdce8b4060c41",
+    "fileName": "01997693-fb66-754a-a868-a2157f1ca146.wav",
+    "prompt": "A Chinese man talking about the weather",
+    "negativePrompt": "",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "51ab93a71492aefc3640f2299400cd2f",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

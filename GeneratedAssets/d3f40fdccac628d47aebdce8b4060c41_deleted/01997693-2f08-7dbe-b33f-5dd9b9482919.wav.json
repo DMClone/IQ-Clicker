@@ -1,0 +1,13 @@
+{
+    "asset": "d3f40fdccac628d47aebdce8b4060c41",
+    "fileName": "01997693-2f08-7dbe-b33f-5dd9b9482919.wav",
+    "prompt": "A burglar asking for the money at a jewelry store",
+    "negativePrompt": "",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "7ba49ca3a8febde685fa22286f982fea",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

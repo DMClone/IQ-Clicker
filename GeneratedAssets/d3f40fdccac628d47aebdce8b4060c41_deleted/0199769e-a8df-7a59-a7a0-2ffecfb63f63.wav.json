@@ -1,0 +1,13 @@
+{
+    "asset": "d3f40fdccac628d47aebdce8b4060c41",
+    "fileName": "0199769e-a8df-7a59-a7a0-2ffecfb63f63.wav",
+    "prompt": "Party music",
+    "negativePrompt": "music",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "19d9227a31b5c12433c3e9fb2f1cd3c1",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

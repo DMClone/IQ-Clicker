@@ -1,0 +1,13 @@
+{
+    "asset": "d3f40fdccac628d47aebdce8b4060c41",
+    "fileName": "019976b1-7ead-7ff4-892c-3f6f6fc53581.wav",
+    "prompt": "A bomb ticking down until it explodes",
+    "negativePrompt": "",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "cbba7d13e5c6705d59018a4c5cedb3ac",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

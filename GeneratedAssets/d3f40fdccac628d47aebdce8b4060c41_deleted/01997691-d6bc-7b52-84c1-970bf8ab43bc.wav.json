@@ -1,0 +1,13 @@
+{
+    "asset": "d3f40fdccac628d47aebdce8b4060c41",
+    "fileName": "01997691-d6bc-7b52-84c1-970bf8ab43bc.wav",
+    "prompt": "Dutch person says \"hello\" in his native language",
+    "negativePrompt": "",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "b29a7ebaef09a346595989a89dd3f654",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

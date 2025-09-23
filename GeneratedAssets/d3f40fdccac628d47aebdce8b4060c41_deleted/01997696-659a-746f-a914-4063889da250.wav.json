@@ -1,0 +1,13 @@
+{
+    "asset": "d3f40fdccac628d47aebdce8b4060c41",
+    "fileName": "01997696-659a-746f-a914-4063889da250.wav",
+    "prompt": "A clarinet playing beautifully outside far away",
+    "negativePrompt": "",
+    "model": "0ee39b33-2893-4e0f-8c46-0e0bdd4eda85",
+    "modelName": "Text to Sound",
+    "customSeed": -1,
+    "w3CTraceId": "fa12c79754bac7e5fb0ed975ce9379c1",
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}
