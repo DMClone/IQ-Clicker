@@ -10,10 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d2b81cd1ebe81c4d90f614155015d8f, type: 3}
-  m_Name: AngryCerebellum
+  m_Name: Multi Cerebellum
   m_EditorClassIdentifier: Assembly-CSharp::Perk
-  description: +7 IQ per click
+  description: '+30% strain duration
+
+    -10% strain reward/penalty
+
+    Strains
+    no longer spawn over time
+
+    Golden strain on brain click'
   modifiers:
-  - statType: 0
-    value: 7
+  - statType: 1
+    value: 0.9
+    isMultiplier: 1
+  - statType: 2
+    value: 1.3
+    isMultiplier: 1
+  - statType: 4
+    value: 0
+    isMultiplier: 1
+  - statType: 5
+    value: 1
     isMultiplier: 0

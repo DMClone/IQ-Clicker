@@ -10,23 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d2b81cd1ebe81c4d90f614155015d8f, type: 3}
-  m_Name: FocusedBrainstem
+  m_Name: Relaxed Brainstem
   m_EditorClassIdentifier: Assembly-CSharp::Perk
-  description: '-20% strain duration
+  description: '+100% strain duration
 
-    -20% strain interval
-
-    +50% strain reward/penalty'
+    -10% strain interval'
   modifiers:
   - statType: 1
-    value: 1.5
-    isMultiplier: 1
-  - statType: 2
-    value: 0.8
-    isMultiplier: 1
-  - statType: 3
-    value: 0.8
+    value: 2
     isMultiplier: 1
   - statType: 4
     value: 2
+    isMultiplier: 1
+  - statType: 3
+    value: 0.9
     isMultiplier: 1

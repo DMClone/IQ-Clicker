@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -94,8 +94,8 @@ MonoBehaviour:
   rectTransform: {fileID: 892366374612368235}
   perkNameText: {fileID: 1706544462747759671}
   perkDescriptionText: {fileID: 419230750775136901}
-  startHeight: 55
-  heightIncrement: 35
+  startHeight: 60
+  heightIncrement: 29
 --- !u!1 &6850359949903913926
 GameObject:
   m_ObjectHideFlags: 0
@@ -131,7 +131,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -30}
-  m_SizeDelta: {x: 475, y: 50}
+  m_SizeDelta: {x: 470, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1881095795384231422
 CanvasRenderer:

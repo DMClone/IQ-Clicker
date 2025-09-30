@@ -10,23 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d2b81cd1ebe81c4d90f614155015d8f, type: 3}
-  m_Name: FocusedCerebellum
+  m_Name: Collector Cerebrum
   m_EditorClassIdentifier: Assembly-CSharp::Perk
-  description: '-25% strain duration
+  description: 'Increase IQ per click with each golden strain collected
 
-    -20% strain interval
+    (base
+    * (1.1 * golden strains collected))
 
-    +50% strain reward/penalty'
+    No longer allows strains to spawn'
   modifiers:
-  - statType: 1
-    value: 1.5
-    isMultiplier: 1
-  - statType: 2
-    value: 0.8
-    isMultiplier: 1
-  - statType: 3
-    value: 0.8
-    isMultiplier: 1
+  - statType: 6
+    value: 0.1
+    isMultiplier: 0
   - statType: 4
-    value: 2
+    value: 0
+    isMultiplier: 1
+  - statType: 5
+    value: 0
     isMultiplier: 1

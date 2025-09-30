@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d2b81cd1ebe81c4d90f614155015d8f, type: 3}
-  m_Name: AngryCerebrum
+  m_Name: Angry Brainstem
   m_EditorClassIdentifier: Assembly-CSharp::Perk
-  description: 2x iq on click
+  description: +2 IQ per click
   modifiers:
   - statType: 0
     value: 2
-    isMultiplier: 1
+    isMultiplier: 0
