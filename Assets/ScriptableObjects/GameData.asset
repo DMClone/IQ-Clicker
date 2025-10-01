@@ -17,3 +17,4 @@ MonoBehaviour:
   goldenStrainsCollected: 0
   falseStrainsCollected: 0
   perks: []
+  sessionId: 0

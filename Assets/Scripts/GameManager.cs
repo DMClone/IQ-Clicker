@@ -1,18 +1,23 @@
 using System.Collections;
 using System.Dynamic;
 using System.Linq;
+using TMPro;
 using JetBrains.Annotations;
 using NUnit.Framework.Constraints;
 using UnityEngine;
 using UnityEngine.Events;
+using Unity.VisualScripting;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
+    [SerializeField] private SubmitScoreApi submitScoreApi;
+    [SerializeField] private GameObject beginScreen;
+    [SerializeField] private GameObject gameScreen;
 
     public Transform brainPos;
     public GameObject[] strains;
-    public TMPro.TextMeshProUGUI iqText;
+    public TextMeshProUGUI iqText;
     public Timer timer;
     public Scientist scientist;
 
@@ -26,11 +31,12 @@ public class GameManager : MonoBehaviour
     {
         Instance = this;
         ResetVariables();
-        StartGame();
     }
 
     public void StartGame()
     {
+        beginScreen.SetActive(false);
+        gameScreen.SetActive(true);
         StartCoroutine(SpawnStrainInterval());
         StartCoroutine(ScientistInterval());
         timer.BeginTimer();
@@ -38,8 +44,10 @@ public class GameManager : MonoBehaviour
 
     public void FinishGame()
     {
+        beginScreen.SetActive(true);
+        gameScreen.SetActive(false);
         StopAllCoroutines();
-        // Send data to database
+        submitScoreApi.SubmitScoreToDB(gameData);
         ResetVariables();
     }
 
@@ -157,7 +165,6 @@ public class GameManager : MonoBehaviour
 
 
         StartCoroutine(ScientistInterval());
-        // To be implemented
     }
 
     public Perk[] GetPerks()
@@ -237,5 +244,4 @@ public class GameManager : MonoBehaviour
         gameData = ScriptableObject.Instantiate(defaultData);
         UpdateUI();
     }
-
 }

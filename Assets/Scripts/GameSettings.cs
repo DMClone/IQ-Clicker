@@ -4,7 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "GameSettings", menuName = "Scriptable Objects/GameSettings")]
 public class GameSettings : ScriptableObject
 {
-    [Range(20, 120)] public int gameDuration = 90;
+    [Range(2, 120)] public int gameDuration = 90;
     [Range(0, 50)] public int iqPerClick = 10;
     public float iqMultiplierPerGoldenStrain = 1;
     public bool strainOnClick = false;

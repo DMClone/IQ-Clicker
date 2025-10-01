@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84b3ae4b946449b4fb3239478f85e9ab, type: 3}
   m_Name: DebugSettings
   m_EditorClassIdentifier: Assembly-CSharp::GameSettings
-  gameDuration: 90
+  gameDuration: 2
+  iqPerClick: 10
+  iqMultiplierPerGoldenStrain: 1
+  strainOnClick: 0
   strainDuration: 1
   goldenStrainAmount: 6
   falseStrainAmount: 3
@@ -21,5 +24,21 @@ MonoBehaviour:
   falseStrainPenalty: 20
   strainRandom: 4
   strainSpawnRadius: 250
+  scientistDuration: 5
+  scientistInterval: 30
   goldenstrainsSpawned: 0
   falseStrainsSpawned: 0
+  scientistRound: 0
+  perkList:
+  - perks:
+    - {fileID: 11400000, guid: 5959fb0d98b36bc488c341d6214e194f, type: 2}
+    - {fileID: 11400000, guid: d1856663fce93ca4ab2f8e37e68fce5c, type: 2}
+    - {fileID: 11400000, guid: c4397c60d020eed42b8963e394b1fc00, type: 2}
+  - perks:
+    - {fileID: 11400000, guid: 056195aa415da054bb2d91a787ba36be, type: 2}
+    - {fileID: 11400000, guid: 97b1ba84379c86146aaf40ad66b72ad1, type: 2}
+    - {fileID: 11400000, guid: 710d995674afcc14283fa85fe0e7ef86, type: 2}
+  - perks:
+    - {fileID: 11400000, guid: 3afd6ee46a27479488f0490d6a8789ff, type: 2}
+    - {fileID: 11400000, guid: d31d98e4a77a7734a991535c733229fe, type: 2}
+    - {fileID: 11400000, guid: d06d169cb3ac7ce4c84938a05c061d35, type: 2}

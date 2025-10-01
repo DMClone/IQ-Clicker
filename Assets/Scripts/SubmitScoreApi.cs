@@ -3,36 +3,49 @@ using UnityEngine.Networking;
 using System;
 using System.Text;
 using System.Collections;
-using UnityEngine.UI;
-using TMPro;
 
-public class CreateSessionApi : MonoBehaviour
+public class SubmitScoreApi : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI text;
-
     [Serializable]
-    private class CreateSessionRequest
+    private class SubmitScoreRequest
     {
-        public string username;
+        public int session_id;
+        public int score;
+        public int clicks;
+        public int gstrain_collected;
+        public int fstrain_collected;
+        public string perk_one;
+        public string perk_two;
+        public string perk_three;
     }
 
     [Serializable]
-    private class CreateSessionResponse
+    private class SubmitScoreResponse
     {
         public bool ok;
-        public int session_id;
-        public int user_id;
+        public int score_id;
         public string error;
     }
 
-    private const string CreateSessionUrl = "http://localhost:5173/api/create-session";
+    private const string SubmitScoreUrl = "http://localhost:5173/api/submit-score";
 
-    public IEnumerator CreateSession(string username)
+    public IEnumerator SubmitScore(GameData gameData)
     {
-        CreateSessionRequest reqObj = new CreateSessionRequest { username = username };
+        SubmitScoreRequest reqObj = new SubmitScoreRequest
+        {
+            session_id = 1,
+            score = gameData.iq,
+            clicks = gameData.brainClicks,
+            gstrain_collected = gameData.goldenStrainsCollected,
+            fstrain_collected = gameData.falseStrainsCollected,
+            perk_one = gameData.perks[0].name,
+            perk_two = gameData.perks[1].name,
+            perk_three = gameData.perks[2].name,
+        };
+
         string json = JsonUtility.ToJson(reqObj);
 
-        UnityWebRequest www = new UnityWebRequest(CreateSessionUrl, "POST");
+        UnityWebRequest www = new UnityWebRequest(SubmitScoreUrl, "POST");
         www.uploadHandler = new UploadHandlerRaw(Encoding.UTF8.GetBytes(json));
         www.downloadHandler = new DownloadHandlerBuffer();
         www.SetRequestHeader("Content-Type", "application/json");
@@ -45,10 +58,10 @@ public class CreateSessionApi : MonoBehaviour
             string text = www.downloadHandler.text;
             try
             {
-                CreateSessionResponse res = JsonUtility.FromJson<CreateSessionResponse>(text);
+                SubmitScoreResponse res = JsonUtility.FromJson<SubmitScoreResponse>(text);
                 if (res != null && res.ok)
                 {
-                    Debug.Log($"Session created. session_id = {res.session_id}, user_id = {res.user_id}");
+                    Debug.Log($"Score saved. score_id = {res.score_id}");
                 }
                 else
                 {
@@ -66,7 +79,7 @@ public class CreateSessionApi : MonoBehaviour
             try
             {
                 string text = www.downloadHandler.text;
-                CreateSessionResponse res = JsonUtility.FromJson<CreateSessionResponse>(text);
+                SubmitScoreResponse res = JsonUtility.FromJson<SubmitScoreResponse>(text);
                 if (res != null && !string.IsNullOrEmpty(res.error))
                 {
                     Debug.LogError($"The server provided the following error message: {res.error}");
@@ -79,12 +92,16 @@ public class CreateSessionApi : MonoBehaviour
         }
     }
 
-    public void OnClick()
+    // private void Start()
+    // {
+    //     int sessionId = 3;
+    //     int levelId = 1;
+    //     StartCoroutine(SubmitScore(sessionId, levelId, 2552, 72, 64.2f));
+    // }
+
+    public void SubmitScoreToDB(GameData gameData)
     {
-        if (text.text.Length >= 3)
-        {
-            StartCoroutine(CreateSession(text.text));
-            GameManager.Instance.StartGame();
-        }
+        StartCoroutine(SubmitScore(gameData));
     }
 }
+

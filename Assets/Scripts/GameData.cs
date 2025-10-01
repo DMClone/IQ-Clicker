@@ -9,4 +9,6 @@ public class GameData : ScriptableObject
     public int goldenStrainsCollected;
     public int falseStrainsCollected;
     public List<Perk> perks;
+
+    public int sessionId;
 }
