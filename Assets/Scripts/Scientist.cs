@@ -13,11 +13,9 @@ public class Scientist : MonoBehaviour
     [SerializeField] private float timeRemaining;
     [SerializeField] private int perkButtonSelected;
 
-
-
     private void OnEnable()
     {
-        totalTime = gameManager.gameSettings.scientistInterval - animator.GetCurrentAnimatorStateInfo(0).length;
+        totalTime = gameManager.gameSettings.scientistInterval / 2 - animator.GetCurrentAnimatorStateInfo(0).length * 2;
         timeRemaining = totalTime;
         FillButtons();
         StartCoroutine(Disable());

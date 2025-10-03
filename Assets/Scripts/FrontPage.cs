@@ -12,7 +12,6 @@ public class FrontPage : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log("FrontPage started.");
         contentSpacing = Mathf.RoundToInt(scrollViewContent.GetComponent<UnityEngine.UI.VerticalLayoutGroup>().spacing);
         perkRoundHeight = Mathf.RoundToInt(perkRoundImagePrefab.GetComponent<RectTransform>().sizeDelta.y);
         FillPerkList();

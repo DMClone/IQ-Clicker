@@ -159,7 +159,7 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator ScientistInterval()
     {
-        if (gameSettings.scientistRound >= gameSettings.perkList.Length) yield break;
+        if (gameSettings.scientistRound >= gameSettings.perkList.Length - 1) yield break;
         yield return new WaitForSeconds(gameSettings.scientistInterval);
         scientist.transform.parent.gameObject.SetActive(true);
 
@@ -227,10 +227,8 @@ public class GameManager : MonoBehaviour
 
     private void ToggleStrainOnClick()
     {
-        Debug.Log("Current scientist round: " + gameSettings.scientistRound);
         if (gameSettings.scientistRound == 3 && !gameSettings.strainOnClick) return;
         gameSettings.strainOnClick = !gameSettings.strainOnClick;
-        Debug.Log("Strain on click: " + gameSettings.strainOnClick);
     }
 
     public void UpdateUI()
